@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryConnectionOLEDB", "LibraryConnectionOLEDB", "{8F0EE78E-53A9-4136-9E1D-0209022B6724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryConnectionSQLServer", "LibraryConnectionSQLServer", "{0182FCC4-E468-41F4-8705-97FBD65077B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderSoft", "LeaderSoft\LeaderSoft.csproj", "{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryConnection", "LibraryConnectionOLEDB\LibraryConnection\LibraryConnection.csproj", "{BD4F7509-A87C-4957-8CCB-4B776EE1A565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPublic", "LibraryPublic\LibraryPublic.csproj", "{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryConnection", "LibraryConnection\LibraryConnection.csproj", "{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Debug|x86.ActiveCfg = Debug|x86
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Debug|x86.Build.0 = Debug|x86
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Release|x86.ActiveCfg = Release|x86
+		{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}.Release|x86.Build.0 = Release|x86
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565}.Release|x86.ActiveCfg = Release|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}.Release|x86.ActiveCfg = Release|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD4F7509-A87C-4957-8CCB-4B776EE1A565} = {8F0EE78E-53A9-4136-9E1D-0209022B6724}
+		{2929C9F4-E5AD-415D-B5C0-1D2DD7C0CF95} = {0182FCC4-E468-41F4-8705-97FBD65077B9}
+	EndGlobalSection
+EndGlobal

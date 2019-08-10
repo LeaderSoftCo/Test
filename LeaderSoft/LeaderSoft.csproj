@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58956D29-BCA1-45AE-8259-2D52BB2AE3BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeaderSoft</RootNamespace>
+    <AssemblyName>LeaderSoft</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormAcconutsTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormAcconutsTypes.Designer.cs">
+      <DependentUpon>FormAcconutsTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormBanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormBanks.Designer.cs">
+      <DependentUpon>FormBanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormBranches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormBranches.Designer.cs">
+      <DependentUpon>FormBranches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormChatOfAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormChatOfAccount.Designer.cs">
+      <DependentUpon>FormChatOfAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormConcludingAcconuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormConcludingAcconuts.Designer.cs">
+      <DependentUpon>FormConcludingAcconuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormCostCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormCostCenter.Designer.cs">
+      <DependentUpon>FormCostCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\Formcurency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\Formcurency.Designer.cs">
+      <DependentUpon>Formcurency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormCustomers.Designer.cs">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormDebentures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormDebentures.Designer.cs">
+      <DependentUpon>FormDebentures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormFund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormFund.Designer.cs">
+      <DependentUpon>FormFund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormHustingCauseways.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormHustingCauseways.Designer.cs">
+      <DependentUpon>FormHustingCauseways.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormSalesMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormSalesMan.Designer.cs">
+      <DependentUpon>FormSalesMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\FormSuppliers.Designer.cs">
+      <DependentUpon>FormSuppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrivteForms\FormTypeAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrivteForms\FormTypeAcc.Designer.cs">
+      <DependentUpon>FormTypeAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PublicForms\SearchForm\TreeSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PublicForms\SearchForm\TreeSearchForm.Designer.cs">
+      <DependentUpon>TreeSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormAcconutsTypes.resx">
+      <DependentUpon>FormAcconutsTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormBanks.resx">
+      <DependentUpon>FormBanks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormBranches.resx">
+      <DependentUpon>FormBranches.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormChatOfAccount.resx">
+      <DependentUpon>FormChatOfAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormConcludingAcconuts.resx">
+      <DependentUpon>FormConcludingAcconuts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormCostCenter.resx">
+      <DependentUpon>FormCostCenter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\Formcurency.resx">
+      <DependentUpon>Formcurency.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormCustomers.resx">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormDebentures.resx">
+      <DependentUpon>FormDebentures.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormFund.resx">
+      <DependentUpon>FormFund.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormHustingCauseways.resx">
+      <DependentUpon>FormHustingCauseways.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormSalesMan.resx">
+      <DependentUpon>FormSalesMan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\FormSuppliers.resx">
+      <DependentUpon>FormSuppliers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrivteForms\FormTypeAcc.resx">
+      <DependentUpon>FormTypeAcc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PublicForms\SearchForm\TreeSearchForm.resx">
+      <DependentUpon>TreeSearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryConnectionOLEDB\LibraryConnection\LibraryConnection.csproj">
+      <Project>{BD4F7509-A87C-4957-8CCB-4B776EE1A565}</Project>
+      <Name>LibraryConnection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryPublic\LibraryPublic.csproj">
+      <Project>{17BE47E9-1ABC-4E5B-B9E2-7A5DE0B12C24}</Project>
+      <Name>LibraryPublic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More_20px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
